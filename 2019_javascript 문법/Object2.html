@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array</title>
+    </head>
+    <body>
+      
+            
+       <script type="text/javascript"> 
+
+        //객체 안의 객체
+       var grades = {
+           'list' : {'egoing' :10, 'k8805':8, 'chanhee':80},
+           'show' : function(){
+               for(var name in this.list){
+                   console.log(name, this.list[name]);
+               }
+
+               //console.log(this.list); // 함수가 속해있는 객체를 가리키는 변수
+           }
+       }
+       grades.show();
+
+        </script>
+       
+        
+    </body>
+</html>
