@@ -1,5 +1,5 @@
 const title = document.querySelector("#title");
-
+//2020_0121_이찬희
 const CLICK_CLASS = "clicked";
 
 /* version_1
